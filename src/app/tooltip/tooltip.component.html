@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="header">
+        <div class="input-group-prepend pre">
+            <span class="input-class-text"><i class="fa fa-user fa-lg"></i></span>
+        </div>
+        <p><span class="firstletter">T</span><span class="heading1">OOLTIP</span><span class="heading2">DEMO</span></p>
+    </div>
+    <div class="main">
+        <div class="tooltip"><button #btn1 id="btn1" class="button" (click)="onClickButton1()"
+                (clickOutside)="onClickedOutside($event)">BUTTON ONE</button>
+            <span esckeypress display scroll class="tooltiptext" #tooltiptext1 id="tooltiptext1">
+                Hello! I am a tooltip one</span>
+        </div>
+        <div class="tooltip"><button #btn2 id="btn2" class="button" (click)="onClickButton2()"
+                (clickOutside)="onClickedOutside($event)">BUTTON TWO</button>
+            <span esckeypress display scroll class="tooltiptext" #tooltiptext2 id="tooltiptext2">
+                Hello! I am a tooltip two</span>
+        </div>
+    </div>
+    <div class="footer">
+        <span class="author">CREATED BY </span><span> MONALI TARABADA</span>
+    </div>
+</div>
