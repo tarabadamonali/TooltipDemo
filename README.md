@@ -1,3 +1,18 @@
+# Run TooltipDemo in your browser
+
+Download the project folder and Extract it. Now, in your command promp, run command "npm install node-modules --save" to install node modules.
+Now, run the application by using the command "ng serve" in your cmd. If you have opened the project in visual studio run "npm start"
+
+
+# About Application
+
+A single page Angular app with simple routing that has one state/view. In it, there are two buttons that when clicked, show a tooltip above the button with some text in it.
+
+When button A is clicked, if button B’s tooltip is open it will close and vice versa - only one tooltip will be visible at a time. Either tooltip will close when clicked anywhere outside of it, but remain open if clicked inside. Either tooltip will close when ESC key is pressed.
+
+If you scroll down to an open tooltip it will detect being at the edge of the screen and change position to be below the butto
+
+
 # ToolTipDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
